@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pajzs — Adatkezelési tájékoztató / Privacy Policy</title>
+<style>
+  :root { --accent: #0f9d76; --ink: #1a1a1c; --muted: #5f5f66; --bg: #ffffff; --card: #f3f6f5; --line: #e4e8e6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --accent: #2fbf8f; --ink: #ececee; --muted: #a1a1aa; --bg: #111214; --card: #1b1d1f; --line: #2a2d30; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: var(--ink); background: var(--bg); line-height: 1.65; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 80px; }
+  header { display: flex; align-items: center; gap: 14px; }
+  .logo { width: 46px; height: 46px; border-radius: 12px; background: linear-gradient(135deg, #1fb88a, #08524a);
+          display: flex; align-items: center; justify-content: center; color: #fff; font-size: 24px; }
+  h1 { font-size: 28px; margin: 22px 0 4px; }
+  h2 { font-size: 19px; margin: 30px 0 8px; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  .card { background: var(--card); border-radius: 14px; padding: 14px 20px; margin: 14px 0; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">🛡️</div>
+    <div><strong>Pajzs</strong><br><span class="muted">Reklámszűrő iPhone-ra · Ad blocker for iPhone</span></div>
+  </header>
+
+  <h1>Adatkezelési tájékoztató</h1>
+  <p class="muted">Hatályos: 2026. október 24.</p>
+
+  <div class="card">
+    <strong>Röviden:</strong> a Pajzs semmilyen személyes adatot nem gyűjt, nem tárol, nem ad el és nem
+    oszt meg. Nincs fiók, nincs reklám, nincs analitika. Minden szűrés a telefonodon történik.
+  </div>
+
+  <h2>Ki kezeli az adatokat?</h2>
+  <p>A Pajzs alkalmazás fejlesztője Hajdu Péter (magánszemély). Kapcsolat:
+    <a href="mailto:hpetike88@gmail.com">hpetike88@gmail.com</a>.</p>
+
+  <h2>Hogyan működik a szűrés?</h2>
+  <p>A Pajzs egy helyi VPN-konfigurációt hoz létre az iPhone-on. Ez nem küld forgalmat semmilyen
+    VPN-szerverre: csak a DNS-lekérdezések (az, hogy egy app melyik szerver nevét keresi) haladnak át
+    rajta, és ezeket a Pajzs a telefonon dönti el. A reklám- és követőszerverek nevére a telefon helyben
+    ad üres választ. A többi lekérdezést a Pajzs titkosítva (DNS-over-HTTPS) továbbítja az általad
+    választott nyilvános DNS-szolgáltatónak (Cloudflare, Google vagy Quad9), pontosan úgy, ahogy a
+    telefon ezt egyébként is tenné. A szolgáltatók adatkezelésére a saját tájékoztatójuk vonatkozik.</p>
+
+  <h2>Milyen adatok keletkeznek, és hol?</h2>
+  <ul>
+    <li><strong>Lekérdezési napló és statisztika</strong> (domainnév, időpont, blokkolva-e): kizárólag a
+      telefonodon tárolódik, legfeljebb az utolsó 500 bejegyzés. Bármikor nullázható az appban, és
+      az app törlésével megszűnik.</li>
+    <li><strong>Beállítások és saját szabályok:</strong> kizárólag a telefonodon.</li>
+    <li><strong>Szűrőlisták letöltése:</strong> a telefon a lista kiadójának szerveréről (pl. GitHub)
+      tölti le a listákat. Ehhez rólad semmilyen adatot nem küldünk.</li>
+  </ul>
+  <p>A fejlesztőhöz semmilyen adat nem jut el. A fejlesztő semmilyen adatot nem ad el, nem használ fel
+    és nem ad át harmadik félnek, semmilyen célra.</p>
+
+  <h2>Jogaid</h2>
+  <p>Mivel a fejlesztő nem kezel rólad adatot, nincs mit kiadni, helyesbíteni vagy törölni. A telefonon
+    tárolt naplót az appban nullázhatod, az összes adatot pedig az app törlésével távolíthatod el.
+    Kérdés esetén írj a fenti címre.</p>
+
+  <hr>
+
+  <h1 lang="en">Privacy Policy</h1>
+  <p class="muted" lang="en">Effective: 24 October 2026</p>
+
+  <div class="card" lang="en">
+    <strong>In short:</strong> Pajzs does not collect, store, sell or share any personal data. No account,
+    no ads, no analytics. All filtering happens on your iPhone.
+  </div>
+
+  <div lang="en">
+  <h2>Who is responsible?</h2>
+  <p>Pajzs is developed by Peter Hajdu (individual developer). Contact:
+    <a href="mailto:hpetike88@gmail.com">hpetike88@gmail.com</a>.</p>
+
+  <h2>How does the filtering work?</h2>
+  <p>Pajzs creates a local VPN configuration on your iPhone. It sends no traffic to any VPN server:
+    only DNS lookups (which server name an app is looking for) pass through it, and Pajzs decides on
+    them on the device. Lookups for ad and tracker servers are answered on the device with an empty
+    result. All other lookups are forwarded encrypted (DNS-over-HTTPS) to the public DNS provider you
+    choose (Cloudflare, Google or Quad9), exactly as the phone would do anyway. Those providers'
+    own privacy policies apply to them.</p>
+
+  <h2>What data exists, and where?</h2>
+  <ul>
+    <li><strong>Lookup log and statistics</strong> (domain name, time, whether it was blocked): stored
+      only on your iPhone, at most the last 500 entries. You can reset them in the app at any time, and
+      they are removed when you delete the app.</li>
+    <li><strong>Settings and your own rules:</strong> only on your iPhone.</li>
+    <li><strong>Filter list downloads:</strong> the lists are downloaded from their publishers' servers
+      (e.g. GitHub). No data about you is sent with these downloads.</li>
+  </ul>
+  <p>No data ever reaches the developer. The developer does not sell, use, or disclose any data to third
+    parties for any purpose.</p>
+
+  <h2>Your rights</h2>
+  <p>As the developer holds no data about you, there is nothing to access, correct or delete. You can
+    reset the on-device log in the app and remove all data by deleting the app. For any question,
+    write to the address above.</p>
+  </div>
+
+  <footer>Pajzs · <a href="support.html">Támogatás / Support</a></footer>
+</div>
+</body>
+</html>

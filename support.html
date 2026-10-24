@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pajzs — Támogatás / Support</title>
+<style>
+  :root { --accent: #0f9d76; --ink: #1a1a1c; --muted: #5f5f66; --bg: #ffffff; --card: #f3f6f5; --line: #e4e8e6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --accent: #2fbf8f; --ink: #ececee; --muted: #a1a1aa; --bg: #111214; --card: #1b1d1f; --line: #2a2d30; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: var(--ink); background: var(--bg); line-height: 1.65; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 80px; }
+  header { display: flex; align-items: center; gap: 14px; }
+  .logo { width: 46px; height: 46px; border-radius: 12px; background: linear-gradient(135deg, #1fb88a, #08524a);
+          display: flex; align-items: center; justify-content: center; color: #fff; font-size: 24px; }
+  h1 { font-size: 28px; margin: 22px 0 4px; }
+  h2 { font-size: 19px; margin: 30px 0 8px; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  .cta { display: inline-block; margin: 10px 0 6px; padding: 11px 18px; background: var(--accent); color: #fff;
+         border-radius: 10px; text-decoration: none; font-weight: 600; }
+  .q { font-weight: 600; margin-top: 18px; margin-bottom: 2px; }
+  .q + p { margin-top: 0; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">🛡️</div>
+    <div><strong>Pajzs</strong><br><span class="muted">Reklámszűrő iPhone-ra · Ad blocker for iPhone</span></div>
+  </header>
+
+  <h1>Támogatás</h1>
+  <p>Kérdésed van, vagy egy játék nem működik a Pajzzsal? Írj, és válaszolok.</p>
+  <a class="cta" href="mailto:hpetike88@gmail.com?subject=Pajzs">E-mail: hpetike88@gmail.com</a>
+
+  <h2>Gyakori kérdések</h2>
+  <p class="q">Egy játék nem indul, vagy azt írja, hogy nincs internet.</p>
+  <p>Nyisd meg a Pajzs Napló lapját, válaszd a „Csak blokkolt” nézetet, és indítsd el a játékot. A sorok
+    mellett látod, melyik reklámhálózatot tiltotta a Pajzs. Kapcsold ki azt a hálózatot a Szűrők ›
+    Játékreklám-hálózatok alatt, vagy húzd balra a sort, és válaszd az „Engedélyez” lehetőséget.</p>
+  <p class="q">Jutalomért néznék meg egy reklámot (extra élet, érme).</p>
+  <p>A Védelem lapon koppints a „Jutalomvideót néznél?” gombra, és válaszd ki, mennyi időre szünetelj.
+    Utána a szűrő magától visszakapcsol.</p>
+  <p class="q">Miért nem tűnik el minden reklám?</p>
+  <p>A Pajzs a reklámszerverek nevét szűri. Azokat a hirdetéseket, amelyek ugyanarról a szerverről jönnek,
+    mint a tartalom (pl. YouTube, Instagram, Facebook), így nem lehet leválasztani.</p>
+  <p class="q">Miért jelenik meg a „VPN” jelzés?</p>
+  <p>A szűrő egy helyi VPN-konfigurációval kapja meg a DNS-lekérdezéseket. Semmilyen forgalom nem megy
+    VPN-szerverre, minden a telefonon történik. Részletek: <a href="privacy.html">Adatkezelési tájékoztató</a>.</p>
+
+  <hr>
+
+  <div lang="en">
+  <h1>Support</h1>
+  <p>Have a question, or does a game not work with Pajzs? Write to me and I will answer.</p>
+  <a class="cta" href="mailto:hpetike88@gmail.com?subject=Pajzs">Email: hpetike88@gmail.com</a>
+
+  <h2>Frequently asked questions</h2>
+  <p class="q">A game doesn't start or says there is no internet.</p>
+  <p>Open the Log tab in Pajzs, switch to "Csak blokkolt" (blocked only) and start the game. Each row shows
+    which ad network Pajzs blocked. Switch that network off under Filters › Game ad networks, or swipe
+    the row left and choose "Engedélyez" (allow).</p>
+  <p class="q">I want to watch a rewarded ad (extra life, coins).</p>
+  <p>On the Protection tab tap "Jutalomvideót néznél?" (watching a rewarded video?) and choose how long to
+    pause. The filter turns itself back on afterwards.</p>
+  <p class="q">Why do some ads remain?</p>
+  <p>Pajzs filters the names of ad servers. Ads served from the same server as the content (e.g. YouTube,
+    Instagram, Facebook) cannot be separated this way.</p>
+  <p class="q">Why is there a "VPN" indicator?</p>
+  <p>The filter receives DNS lookups through a local VPN configuration. No traffic goes to any VPN server;
+    everything happens on the iPhone. Details: <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <footer>Pajzs · <a href="privacy.html">Adatkezelés / Privacy</a></footer>
+</div>
+</body>
+</html>
